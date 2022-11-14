@@ -7,8 +7,8 @@ public class Odev1 {
                 System.out.println("I'm busy...");
                 Thread.sleep(500);
                 Runtime.getRuntime().removeShutdownHook(ms);
-            } catch (Exception ex) {
-                ex.printStackTrace();
+            } catch (InterruptedException ex) {
+                System.out.println("System interrputed");
             }
         }
     }
