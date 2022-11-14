@@ -7,7 +7,7 @@ public class Odev1 {
                 System.out.println("I'm busy...");
                 Thread.sleep(500);
             } catch (InterruptedException ex) {
-                System.out.println("System interrputed");
+                System.out.println("System interrupted");
             }
         }
     }
